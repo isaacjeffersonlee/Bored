@@ -1,0 +1,21 @@
+---
+title: "Activities to do When You're Bored."
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+```{python}
+
+import requests
+from rich.console import Console
+console = Console()
+
+url = "https://www.boredapi.com/api/activity/"
+
+r = requests.get(url)
+
+console.print(r.json())
+
+```

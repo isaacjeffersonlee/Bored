@@ -1,5 +1,5 @@
 ---
-title: "Activities to do When You're Bored."
+title: "Activities to do when Bored."
 format:
   html:
     code-fold: true

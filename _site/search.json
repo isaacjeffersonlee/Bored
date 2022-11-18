@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Activities to do When You’re Bored.",
+    "section": "",
+    "text": "Code\nimport requests\nfrom rich.console import Console\nconsole = Console()\n\nurl = \"https://www.boredapi.com/api/activity/\"\n\nr = requests.get(url)\n\nconsole.print(r.json())\n\n\n{\n    'activity': 'Visit a nearby museum',\n    'type': 'recreational',\n    'participants': 1,\n    'price': 0.2,\n    'link': '',\n    'key': '5490351',\n    'accessibility': 0.7\n}"
+  }
+]
